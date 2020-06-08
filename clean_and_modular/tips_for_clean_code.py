@@ -39,6 +39,17 @@ def count_unique_values(arr):
 Good function names describe what they do well without including details about 
 implementation or highly specific uses
 
+TIP 2 : USE WHITESPACES PROPERLY:
+clean code has good and consistent spacing -
+PEP-8 guide - https://www.python.org/dev/peps/pep-0008/?#code-lay-out
+a) Organize your code with consistent indentation - standard is 4 spaces for each
+indent. Make this default in your text editor
+b) Separate sections with blank lines to keep your code well organized and
+readable
+c) Try to limit your lines of code to 79 characters.
+https://stackoverflow.com/questions/29968499/vertical-rulers-in-visual-studio-code
+
+
 ''')
 
 # code without use of meaningful names
