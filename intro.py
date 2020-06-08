@@ -11,7 +11,7 @@ intended audience of our software product.
 
 Techniques:
 1. Write clean and modular code
-2. Improve code efficiency
+2. Improve code efficiency - refactoring code
 3. Document effectively - Add effective documentation
 4. Use version control
 5. Testing
