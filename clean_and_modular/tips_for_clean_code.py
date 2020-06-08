@@ -17,7 +17,8 @@ ages = [25, 17, 56, 67]
 For booleans, it is often helpful to prefix the name with words like is or has 
 to make it clear that it is a condition
 
-
+You can also use parts of speech to imply types by using verbs for functions and
+nouns for variables
 ''')
 
 # code without use of meaningful names
