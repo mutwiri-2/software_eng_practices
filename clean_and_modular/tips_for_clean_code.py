@@ -31,10 +31,9 @@ print(sum(s1) / len(s1)) # print mean of curved test scores
 # better code version of the above with use of meaningful names
 
 import math
-import numpy as np
-
+from numpy import mean
 test_scores = [88, 92, 79, 93, 85]
-print(np.mean(test_scores))
+print(mean(test_scores))
 
 curved_test_scores = [math.sqrt(score) * 10 for score in test_scores]
-print(np.mean(curved_test_scores))
+print(mean(curved_test_scores))
