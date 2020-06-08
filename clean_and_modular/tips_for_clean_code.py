@@ -25,6 +25,20 @@ many many times. Exceptions for this rule include names for counters (i), and
 common math variables like x, s, t etc. Choosing when to make this exceptions 
 depends on the audience  for your code. Some variables may be common knowledge 
 to certain professionals but not others
+
+Long names != descriptive names: long names do not always mean descriptive names
+You should be descriptive, yes! But not with more characters than neccessary e.g
+# bad
+def count_unique_values_of_names_list_with_set(names_list):
+    return len(set(names_list))
+
+# better version
+def count_unique_values(arr):
+    return len(set(arr))
+
+Good function names describe what they do well without including details about 
+implementation or highly specific uses
+
 ''')
 
 # code without use of meaningful names
