@@ -4,6 +4,16 @@ Tips for writing clean code:
 Using meaningful, descriptive names for variables and functions can help you
 explain most of your code without comments
 
+Guidelines for coming up with meaningful names:
+1. Be descriptive and imply type:
+When coming up with names for functions and variables, be descriptive and where
+possible try implying the type of whatever you are naming e.g
+# descriptive and implying type
+age_list = [25, 17, 56, 67]
+
+# not descriptive
+ages = [25, 17, 56, 67]
+
 ''')
 
 # code without use of meaningful names
