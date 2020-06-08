@@ -19,6 +19,12 @@ to make it clear that it is a condition
 
 You can also use parts of speech to imply types by using verbs for functions and
 nouns for variables
+
+Avoid abbreviations and especially single letters unless the word will be used 
+many many times. Exceptions for this rule include names for counters (i), and 
+common math variables like x, s, t etc. Choosing when to make this exceptions 
+depends on the audience  for your code. Some variables may be common knowledge 
+to certain professionals but not others
 ''')
 
 # code without use of meaningful names
