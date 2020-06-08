@@ -14,6 +14,10 @@ age_list = [25, 17, 56, 67]
 # not descriptive
 ages = [25, 17, 56, 67]
 
+For booleans, it is often helpful to prefix the name with words like is or has 
+to make it clear that it is a condition
+
+
 ''')
 
 # code without use of meaningful names
