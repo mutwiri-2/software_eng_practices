@@ -3,7 +3,7 @@ As Software Engineers, there are a few techniques that we can adopt that will
 help us to implement production-level solutions.
 
 Production-level solutions or production quality code is code that meets 
-expectations in reliability, efficiency among other for production. This
+expectations in reliability, efficiency among others for production. This
 production-level code is most times run on production servers.
 
 Software running on production servers handles live users and data of the
