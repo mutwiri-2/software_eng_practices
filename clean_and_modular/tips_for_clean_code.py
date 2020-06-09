@@ -69,3 +69,17 @@ print(mean(test_scores))
 
 curved_test_scores = [math.sqrt(score) * 10 for score in test_scores]
 print(mean(curved_test_scores))
+
+print(r'''
+# non-descriptive 
+t = end_time - start # get execution time
+c = category(t) # get category of task
+print('Task duration: {} Category: {}'.format(t,c))
+
+# descriptive
+execution_time = end_time - start_time
+category = categorize_task(execution_time) #use parts of speech to imply types
+#by using verbs for functions and nouns for variables
+print('Task duration: {} Category: {}'.format(execution_time,category))
+''')
+
