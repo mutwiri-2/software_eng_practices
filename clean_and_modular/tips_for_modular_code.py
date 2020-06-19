@@ -31,6 +31,11 @@ def square_root_curve_and_print_mean(arr):
     print(np.mean(curved))
     return curved
 
+5. Arbitrary variable names can be more effective in certain functions - In
+general functions, arbitrary variable names can make the code more clean
+
+6. 
+
 Code to show the above guidelines in practice
 # spaghetti code
 s = [88, 92, 79, 93, 85]
