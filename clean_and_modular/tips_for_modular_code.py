@@ -34,7 +34,12 @@ def square_root_curve_and_print_mean(arr):
 5. Arbitrary variable names can be more effective in certain functions - In
 general functions, arbitrary variable names can make the code more clean
 
-6. 
+6. Try to use fewer than 3 arguments per function - Modularization is meant to
+simplify our code and make it more effecient to work with so fewer arguments
+makes it more effective
+
+Functions are used to abstract out parts of a program to make it more readable
+clear and reusable
 
 Code to show the above guidelines in practice
 # spaghetti code
