@@ -11,6 +11,26 @@ with descriptive function names. Although your code can become more readable
 when you abstract out logic into functions, it is possible to over-engineer this
 and have way too many modules, so use your judgement.
 
+3. Minimize the number of entities (functions. classes, modules) - Creating more
+modules does not neccessarily result in effective modularization
+
+4. Make sure each function you create is focused on doing one thing - Avoid
+having unneccessary side-effects in functions and keep them focused. When 
+functions are doing multiple things, they become more difficult to generalize
+and reuse
+NB: If there is an and in your function, consider refactoring
+
+# example of functions with unneccessary side effect
+def flat_curve_and_print_mean(arr, n):
+    curved = [i + n for i in arr]
+    print(np.mean(curved))
+    return curved
+
+def square_root_curve_and_print_mean(arr):
+    curved = [math.sqrt(i) * 10 for i in arr]
+    print(np.mean(curved))
+    return curved
+
 Code to show the above guidelines in practice
 # spaghetti code
 s = [88, 92, 79, 93, 85]
